@@ -11,15 +11,13 @@ syn keyword lammpsLattice     boundary units atom_style lattice region create_bo
 syn keyword lammpsLattice     delete_atoms change_box dimension displace_atoms
 syn keyword lammpsParticle    pair_coeff pair_style mass angle_coeff angle_style atom_modify
 syn keyword lammpsParticle    atom_style bond_coeff bond_style delete_bonds
-syn keyword lammpsSetup       min_style fix_modify run_style timestep neighbor fix unfix pair_modify
+syn keyword lammpsSetup       min_style fix_modify run_style timestep neighbor fix unfix pair_modify 
 syn keyword lammpsRun         minimize run  
 syn keyword lammpsDefine      variable
-
-syn keyword lammpsRepeat      jump next loop
-
-syn keyword lammpsOperator    equal add sub mult div 
-
+syn keyword lammpsRepeat      jump next loop label
+syn keyword lammpsOperator    equal add sub mult div ceil round floor
 syn keyword lammpsConditional if then else
+
 
 syn region lammpsString			start=+'+ end=+'+	oneline
 syn region lammpsString			start=+"+ end=+"+	oneline
