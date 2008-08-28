@@ -8,7 +8,7 @@ syn clear
 syn keyword lammpsOutput      log write_restart dump undump dump_modify thermo thermo_modify thermo_style print 
 syn keyword lammpsRead        include read read_restart read_data
 syn keyword lammpsLattice     boundary units atom_style lattice region create_box create_atoms group
-syn keyword lammpsLattice     delete_atoms change_box dimension displace_atoms
+syn keyword lammpsLattice     delete_atoms change_box dimension displace_atoms box lattice side in out
 syn keyword lammpsParticle    pair_coeff pair_style mass angle_coeff angle_style atom_modify
 syn keyword lammpsParticle    atom_style bond_coeff bond_style delete_bonds
 syn keyword lammpsSetup       min_style fix_modify run_style timestep neighbor fix unfix pair_modify 
